@@ -1,6 +1,6 @@
 # Ὦ0 Official Staff Team
 
-> Last Updated 2018/11/12 22:25:39
+> Last Updated 2018/12/14 11:26:71
 
 ---
 - **Frantic Gaming** - *Those in Frantic Gaming*
@@ -16,6 +16,9 @@
     - *(Europe/Istanbul)*
 - **Administrator** - *Manage the server*
   - **Ariathe#4163** - `325828052422492162`
+  - **TedBwo17#0382** - `247865770749460493`
+    - He has been a moderator for a while.
+    - *(America/Toronto)*
   - **zuru the player of games#3876** - `269879089991516179`
     - *(America/Chicago)*
 - **Moderator** - *Manage the chat*
@@ -23,8 +26,6 @@
     - *(America/New_York)*
   - **Damedol#7563** - `336508657120575498`
   - **BillyWithWings#3619** - `371764747890327553`
-  - **TedBwo17#0382** - `247865770749460493`
-    - *(America/Toronto)*
 - **Former Staff** - *The server's retired staff members*
   - **Aceheliflyer#0950** - `196443959558406144`
     - *(America/New_York)*
