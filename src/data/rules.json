@@ -1,1 +1,74 @@
-{"rules":[{"content":"No NSFW what so ever.","class":"Class IV"},{"content":"No toxicity what so ever.","class":"Class II"},{"content":"No Advertising in chat or in PM/DM.","class":"Class III"},{"content":"No impersonating staff *at all!*","class":"Class IV"},{"content":"No use of alt accounts.","class":"Class III"},{"content":"No spammy messages, that means don't take several lines to not say much, and don't say the same thing over and over.","class":"Class II"},{"content":"No commands outside of #bot-spam unless relevant to a conversation. `t!profile` is a good example as a chat friendly command, music commands are not.","class":"Staff Decided"},{"content":"If your username can't be easily mentioned, please set your nickname to something mentionable.","class":"Class I"},{"content":"Don't set your name/nickname to `@everyone` or `@here`.","class":"Staff Decided"},{"content":"Respect all users especially the staff, if you're told to stop, then stop.","class":"Staff Decided"},{"content":"**Trigger the automod four times in five minutes and __you will be muted for one hour__** **(class II)**","class":"Class II"},{"content":"**Do not argue with staff as their decisions are final.**","class":"Staff Decided"}],"classes":[{"name":"Class I","content":"Logged warning"},{"name":"Class II","content":"Logged mute *(length depends on staff decision)*"},{"name":"Class III","content":"Kicked from the guild"},{"name":"Class IV","content":"Permanent ban *(All bans are by Account and IP courtesy of Discord)*"},{"name":"Staff Decided","content":"Decided by a valid Staff Member"}]}
+{
+  "rules": [
+    {
+      "content": "No NSFW what so ever.",
+      "class": "Class IV"
+    },
+    {
+      "content": "No toxicity what so ever.",
+      "class": "Class II"
+    },
+    {
+      "content": "No Advertising in chat or in PM/DM.",
+      "class": "Class III"
+    },
+    {
+      "content": "No impersonating staff *at all!*",
+      "class": "Class IV"
+    },
+    {
+      "content": "No use of alt accounts.",
+      "class": "Class III"
+    },
+    {
+      "content": "No spammy messages, that means don't take several lines to not say much, and don't say the same thing over and over.",
+      "class": "Class II"
+    },
+    {
+      "content": "No commands outside of #bot-spam unless relevant to a conversation. `t!profile` is a good example as a chat friendly command, music commands are not.",
+      "class": "Staff Decided"
+    },
+    {
+      "content": "If your username can't be easily mentioned, please set your nickname to something mentionable.",
+      "class": "Class I"
+    },
+    {
+      "content": "Don't set your name/nickname to `@everyone` or `@here`.",
+      "class": "Staff Decided"
+    },
+    {
+      "content": "Respect all users especially the staff, if you're told to stop, then stop.",
+      "class": "Staff Decided"
+    },
+    {
+      "content": "**Trigger the automod four times in five minutes and __you will be muted for one hour__** **(class II)**",
+      "class": "Class II"
+    },
+    {
+      "content": "**Do not argue with staff as their decisions are final.**",
+      "class": "Staff Decided"
+    }
+  ],
+  "classes": [
+    {
+      "name": "Class I",
+      "content": "Logged warning"
+    },
+    {
+      "name": "Class II",
+      "content": "Logged mute *(length depends on staff decision)*"
+    },
+    {
+      "name": "Class III",
+      "content": "Kicked from the guild"
+    },
+    {
+      "name": "Class IV",
+      "content": "Permanent ban *(All bans are by Account and IP courtesy of Discord)*"
+    },
+    {
+      "name": "Staff Decided",
+      "content": "Decided by a valid Staff Member"
+    }
+  ]
+}

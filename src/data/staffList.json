@@ -1,1 +1,138 @@
-{"staffMembers":[{"username":"cat16","discrim":"0725","id":"217797734982352896","bio":"","timezone":"America/New_York","position":"Moderator"},{"username":"Damedol","discrim":"7563","id":"336508657120575498","bio":"","timezone":"","position":"Moderator"},{"username":"Frantic","discrim":"0586","id":"172746824086585344","bio":"The real Frantic Matty!","timezone":"Europe/London","position":"Frantic Gaming"},{"username":"Ariathe","discrim":"4163","id":"325828052422492162","bio":"","timezone":"","position":"Administrator"},{"username":"BillyWithWings","discrim":"3619","id":"371764747890327553","bio":"","timezone":"","position":"Moderator"},{"username":"Spanner_","discrim":"0544","id":"178262900660502529","bio":"","timezone":"Europe/London","position":"Frantic Gaming"},{"username":"TedBwo17","discrim":"0382","id":"247865770749460493","bio":"He has been a moderator for a while.","timezone":"America/Toronto","position":"Administrator"},{"username":"zuru the player of games","discrim":"3876","id":"269879089991516179","bio":"","timezone":"America/Chicago","position":"Administrator"},{"username":"Zynthia","discrim":"4072","id":"96672128497106944","bio":"","timezone":"Europe/Stockholm","position":"Frantic Gaming"},{"username":"ANormalGulboy","discrim":"6691","id":"142627236011442176","bio":"","timezone":"Europe/Istanbul","position":"Manager"},{"username":"Aceheliflyer","discrim":"0950","id":"196443959558406144","bio":"","timezone":"America/New_York","position":"Former Staff"},{"username":"just finn to be honest","discrim":"0801","id":"329179640616714240","bio":"","timezone":"Europe/Amsterdam","position":"Former Staff"},{"username":"VernalTie513","discrim":"8667","id":"278980949209907200","bio":"","timezone":"","position":"Former Staff"},{"username":"Zach","discrim":"0878","id":"333241135814148097","bio":"","timezone":"","position":"Former Staff"}],"positions":[{"name":"Frantic Gaming","description":"Those in Frantic Gaming"},{"name":"Manager","description":"Actually run the server for Matty (kind of?)"},{"name":"Administrator","description":"Manage the server"},{"name":"Moderator","description":"Manage the chat"},{"name":"Former Staff","description":"The server's retired staff members"}]}
+{
+  "staffMembers": [
+    {
+      "username": "cat16",
+      "discrim": "0725",
+      "id": "217797734982352896",
+      "bio": "",
+      "timezone": "America/New_York",
+      "position": "Moderator"
+    },
+    {
+      "username": "Damedol",
+      "discrim": "7563",
+      "id": "336508657120575498",
+      "bio": "",
+      "timezone": "",
+      "position": "Moderator"
+    },
+    {
+      "username": "Frantic",
+      "discrim": "0586",
+      "id": "172746824086585344",
+      "bio": "The real Frantic Matty!",
+      "timezone": "Europe/London",
+      "position": "Frantic Gaming"
+    },
+    {
+      "username": "Ariathe",
+      "discrim": "4163",
+      "id": "325828052422492162",
+      "bio": "",
+      "timezone": "",
+      "position": "Administrator"
+    },
+    {
+      "username": "BillyWithWings",
+      "discrim": "3619",
+      "id": "371764747890327553",
+      "bio": "",
+      "timezone": "",
+      "position": "Moderator"
+    },
+    {
+      "username": "Spanner_",
+      "discrim": "0544",
+      "id": "178262900660502529",
+      "bio": "",
+      "timezone": "Europe/London",
+      "position": "Frantic Gaming"
+    },
+    {
+      "username": "TedBwo17",
+      "discrim": "0382",
+      "id": "247865770749460493",
+      "bio": "He has been a moderator for a while.",
+      "timezone": "America/Toronto",
+      "position": "Administrator"
+    },
+    {
+      "username": "zuru the player of games",
+      "discrim": "3876",
+      "id": "269879089991516179",
+      "bio": "",
+      "timezone": "America/Chicago",
+      "position": "Administrator"
+    },
+    {
+      "username": "Zynthia",
+      "discrim": "4072",
+      "id": "96672128497106944",
+      "bio": "",
+      "timezone": "Europe/Stockholm",
+      "position": "Frantic Gaming"
+    },
+    {
+      "username": "ANormalGulboy",
+      "discrim": "6691",
+      "id": "142627236011442176",
+      "bio": "",
+      "timezone": "Europe/Istanbul",
+      "position": "Manager"
+    },
+    {
+      "username": "Aceheliflyer",
+      "discrim": "0950",
+      "id": "196443959558406144",
+      "bio": "",
+      "timezone": "America/New_York",
+      "position": "Former Staff"
+    },
+    {
+      "username": "just finn to be honest",
+      "discrim": "0801",
+      "id": "329179640616714240",
+      "bio": "",
+      "timezone": "Europe/Amsterdam",
+      "position": "Former Staff"
+    },
+    {
+      "username": "VernalTie513",
+      "discrim": "8667",
+      "id": "278980949209907200",
+      "bio": "",
+      "timezone": "",
+      "position": "Former Staff"
+    },
+    {
+      "username": "Zach",
+      "discrim": "0878",
+      "id": "333241135814148097",
+      "bio": "",
+      "timezone": "",
+      "position": "Former Staff"
+    }
+  ],
+  "positions": [
+    {
+      "name": "Frantic Gaming",
+      "description": "Those in Frantic Gaming"
+    },
+    {
+      "name": "Manager",
+      "description": "Actually run the server for Matty (kind of?)"
+    },
+    {
+      "name": "Administrator",
+      "description": "Manage the server"
+    },
+    {
+      "name": "Moderator",
+      "description": "Manage the chat"
+    },
+    {
+      "name": "Former Staff",
+      "description": "The server's retired staff members"
+    }
+  ]
+}

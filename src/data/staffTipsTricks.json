@@ -1,1 +1,241 @@
-{"categories":[{"name":"Discord","subtitle":"Do not include <> nor [] - <> means required and [] means optional.","subCategories":[{"name":"How to Use [Support Tickets](http://liba001.github.io/Support-Manager)","data":[{"commandBeforeContent":true,"content":"View all tickets for the current server.","command":"/tickets here"},{"commandBeforeContent":true,"content":"View tickets for a specific user.","command":"/tickets [user]"},{"commandBeforeContent":true,"content":"Show a specific ticket.","command":"/ticket show <ticket number>"},{"commandBeforeContent":true,"content":"Close a specific ticket.","command":"/ticket close <ticket number>; [reason]"}]},{"name":"How to use Moderation Commands","data":[{"commandBeforeContent":true,"content":"Add a url or comma separated list of urls to automod blacklist.","command":"?blacklist <url>"},{"commandBeforeContent":true,"content":"Add a url or comma separated list of urls to automod whitelist.","command":"?whitelist <url>"},{"commandBeforeContent":true,"content":"Clear warnings from a user.","command":"?clearwarn <user>"},{"commandBeforeContent":true,"content":"Delete a number of messages from a channel (limit 1000).","command":"?prune <>"},{"commandBeforeContent":true,"content":"Enable/disable a command.","command":"?command <command name>"},{"commandBeforeContent":true,"content":"Enable/disable a module.","command":"?module <module name>"},{"commandBeforeContent":true,"content":"Toggles command usage for a channel.","command":"?ignorechannel <channel>"},{"commandBeforeContent":true,"content":"Toggles command usage for a user.","command":"?ignoreuser <user> <reason>"},{"commandBeforeContent":true,"content":"Ban a member, optional time limit.","command":"?ban <user> [limit] <reason>"},{"commandBeforeContent":true,"content":"Kick a member.","command":"?kick <user> <reason>"},{"commandBeforeContent":true,"content":"Mute a member so they cannot type or speak, time limit in minutes.","command":"?mute <user> [limit] <reason>"},{"commandBeforeContent":true,"content":"Softban a member (ban and immediate unban to delete user messages).","command":"?softban <user> <reason>"},{"commandBeforeContent":true,"content":"Unban a member.","command":"?unban <user or id> [reason]"},{"commandBeforeContent":true,"content":"Unmute a member.","command":"?unmute <user> [reason]"},{"commandBeforeContent":true,"content":"Warn a member.","command":"?warn <user> <reason>"},{"commandBeforeContent":true,"content":"Get warnings for the server or user.","command":"?warnings [user]"},{"commandBeforeContent":true,"content":"Get a list of modlogs for a user.","command":"?modlogs <user>"},{"commandBeforeContent":true,"content":"List channels and users where commands are ignored.","command":"?ignored"},{"commandBeforeContent":true,"content":"Assign/unassign a role that persists if the user leaves and rejoins.","command":"?rolepersist <user> <role>, <reason>"},{"commandBeforeContent":true,"content":"Get a list of active moderations (timed) and remaining time.","command":"?moderations"},{"commandBeforeContent":true,"content":"Lock a channel.","command":"?lock <channel> [time] [message]"},{"commandBeforeContent":true,"content":"Unlock a previously locked channel.","command":"?unlock <channel> [message]"}]},{"name":"How to use [@GiveawayBot#2381](http://giveawaybot.party)","data":[{"commandBeforeContent":true,"content":"Creates a giveaway (interactive setup)","command":"!gcreate"},{"commandBeforeContent":true,"content":"Starts a giveaway (quick setup)","command":"!gstart <time> [winners]w [prize]"},{"commandBeforeContent":true,"content":"Ends (picks a winner for) the specified or latest giveaway in the current channel","command":"!gend [messageId]"},{"commandBeforeContent":true,"content":"Re-rolls the specified or latest giveaway in the current channel","command":"!greroll [messageId]"},{"commandBeforeContent":true,"content":"Lists active giveaways on the server","command":"!glist"}]}]},{"name":"Minecraft","subtitle":"Do not include <> nor [] - <> means required and [] means optional.","subCategories":[{"name":"NBT General Formats","data":[{"commandBeforeContent":false,"content":"Named Items","command":"display:{Name:\"name here\"}"},{"commandBeforeContent":false,"content":"Renaming Animals","command":"/data merge entity @e[sort=nearest,limit=1,type=ANIME_TYPE_HERE] {CustomName:\"NAME_HERE\"}"}]},{"name":"Special Commands","data":[{"commandBeforeContent":false,"content":"Invisibility","command":"/effect give @p minecraft:invisibility 100000 1 true"},{"commandBeforeContent":false,"content":"CATNIP","command":"/give @p minecraft:potion{CustomPotionEffects:[{Id:9,Duration:60000}],CustomPotionColor:16122102,display:{Name:\"cat16's catnip >:)\"}}"},{"commandBeforeContent":false,"content":"Drill","command":"/give @p minecraft:diamond_pickaxe{display:{Name:\"Drill\"},Unbreakable:1,Enchantments:[{id:efficiency,lvl:100}]} 1"},{"commandBeforeContent":false,"content":"WAK-E STICC","command":"/give @p stick{display:{Name:\"WHACC-E STICC\"},Enchantments:[{id:knockback,lvl:100}]} 1"}]},{"name":"How to Deal with Hackers","data":[{"commandBeforeContent":true,"content":"Add a hacker to the database","command":"/team join hacker <name>"},{"commandBeforeContent":true,"content":"Remove a hacker from the database","command":"/team leave hacker <name>` __&&__ `/gamemode survival <name>"}]}]}]}
+{
+  "categories": [
+    {
+      "name": "Discord",
+      "subtitle": "Do not include <> nor [] - <> means required and [] means optional.",
+      "subCategories": [
+        {
+          "name": "How to Use [Support Tickets](http://liba001.github.io/Support-Manager)",
+          "data": [
+            {
+              "commandBeforeContent": true,
+              "content": "View all tickets for the current server.",
+              "command": "/tickets here"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "View tickets for a specific user.",
+              "command": "/tickets [user]"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Show a specific ticket.",
+              "command": "/ticket show <ticket number>"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Close a specific ticket.",
+              "command": "/ticket close <ticket number>; [reason]"
+            }
+          ]
+        },
+        {
+          "name": "How to use Moderation Commands",
+          "data": [
+            {
+              "commandBeforeContent": true,
+              "content": "Add a url or comma separated list of urls to automod blacklist.",
+              "command": "?blacklist <url>"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Add a url or comma separated list of urls to automod whitelist.",
+              "command": "?whitelist <url>"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Clear warnings from a user.",
+              "command": "?clearwarn <user>"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Delete a number of messages from a channel (limit 1000).",
+              "command": "?prune <>"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Enable/disable a command.",
+              "command": "?command <command name>"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Enable/disable a module.",
+              "command": "?module <module name>"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Toggles command usage for a channel.",
+              "command": "?ignorechannel <channel>"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Toggles command usage for a user.",
+              "command": "?ignoreuser <user> <reason>"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Ban a member, optional time limit.",
+              "command": "?ban <user> [limit] <reason>"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Kick a member.",
+              "command": "?kick <user> <reason>"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Mute a member so they cannot type or speak, time limit in minutes.",
+              "command": "?mute <user> [limit] <reason>"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Softban a member (ban and immediate unban to delete user messages).",
+              "command": "?softban <user> <reason>"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Unban a member.",
+              "command": "?unban <user or id> [reason]"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Unmute a member.",
+              "command": "?unmute <user> [reason]"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Warn a member.",
+              "command": "?warn <user> <reason>"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Get warnings for the server or user.",
+              "command": "?warnings [user]"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Get a list of modlogs for a user.",
+              "command": "?modlogs <user>"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "List channels and users where commands are ignored.",
+              "command": "?ignored"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Assign/unassign a role that persists if the user leaves and rejoins.",
+              "command": "?rolepersist <user> <role>, <reason>"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Get a list of active moderations (timed) and remaining time.",
+              "command": "?moderations"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Lock a channel.",
+              "command": "?lock <channel> [time] [message]"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Unlock a previously locked channel.",
+              "command": "?unlock <channel> [message]"
+            }
+          ]
+        },
+        {
+          "name": "How to use [@GiveawayBot#2381](http://giveawaybot.party)",
+          "data": [
+            {
+              "commandBeforeContent": true,
+              "content": "Creates a giveaway (interactive setup)",
+              "command": "!gcreate"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Starts a giveaway (quick setup)",
+              "command": "!gstart <time> [winners]w [prize]"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Ends (picks a winner for) the specified or latest giveaway in the current channel",
+              "command": "!gend [messageId]"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Re-rolls the specified or latest giveaway in the current channel",
+              "command": "!greroll [messageId]"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Lists active giveaways on the server",
+              "command": "!glist"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Minecraft",
+      "subtitle": "Do not include <> nor [] - <> means required and [] means optional.",
+      "subCategories": [
+        {
+          "name": "NBT General Formats",
+          "data": [
+            {
+              "commandBeforeContent": false,
+              "content": "Named Items",
+              "command": "display:{Name:\"name here\"}"
+            },
+            {
+              "commandBeforeContent": false,
+              "content": "Renaming Animals",
+              "command": "/data merge entity @e[sort=nearest,limit=1,type=ANIME_TYPE_HERE] {CustomName:\"NAME_HERE\"}"
+            }
+          ]
+        },
+        {
+          "name": "Special Commands",
+          "data": [
+            {
+              "commandBeforeContent": false,
+              "content": "Invisibility",
+              "command": "/effect give @p minecraft:invisibility 100000 1 true"
+            },
+            {
+              "commandBeforeContent": false,
+              "content": "CATNIP",
+              "command": "/give @p minecraft:potion{CustomPotionEffects:[{Id:9,Duration:60000}],CustomPotionColor:16122102,display:{Name:\"cat16's catnip >:)\"}}"
+            },
+            {
+              "commandBeforeContent": false,
+              "content": "Drill",
+              "command": "/give @p minecraft:diamond_pickaxe{display:{Name:\"Drill\"},Unbreakable:1,Enchantments:[{id:efficiency,lvl:100}]} 1"
+            },
+            {
+              "commandBeforeContent": false,
+              "content": "WAK-E STICC",
+              "command": "/give @p stick{display:{Name:\"WHACC-E STICC\"},Enchantments:[{id:knockback,lvl:100}]} 1"
+            }
+          ]
+        },
+        {
+          "name": "How to Deal with Hackers",
+          "data": [
+            {
+              "commandBeforeContent": true,
+              "content": "Add a hacker to the database",
+              "command": "/team join hacker <name>"
+            },
+            {
+              "commandBeforeContent": true,
+              "content": "Remove a hacker from the database",
+              "command": "/team leave hacker <name>` __&&__ `/gamemode survival <name>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

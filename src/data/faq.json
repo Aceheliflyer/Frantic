@@ -1,1 +1,56 @@
-{"faq":[{"title":"When does **@Frantic#0586** stream?","description":"The **@Now Live#0483 ** bot will post a message about 15 minutes after **@Frantic#0586** starts streaming."},{"title":"What does **@Frantic#0586** use to record?","description":"*\"I use OBS most of the time, if I want quality I would use Dxtory\"* —@Frantic#0586"},{"title":"Why wasn't I able to talk?","description":"You triggered the automod four times and are muted for an hour."},{"title":"Can I be Staff?","description":"You don't get staff for asking. I hand out staff roles to people that actually help. You saying ***`can i hav mod plz?`*** will not only make me not give you a staff role, but will make me think you are way too irresponsible to even handle the position."},{"title":"Staff is being unfair! / I have trouble with some of the staff members! Who do I contact?","description":"You contact me, **@Aceheliflyer#0950**. Tell me what is wrong and provide evidence with details. I will sort things out and talk to that staff member."},{"title":"My friend / I got banned. What do I do?","description":"Bans are not meant to be evaded. If you or they were banned, it was for a good reason. There is a way to appeal, and that is by talk to **@Aceheliflyer#0950** via DM. In your appeal, include the date you were banned on, why you were banned *(you should know this)* and why you would like to be unbanned. If you feel that you were unfairly banned for a misunderstanding or a bot accidentally malfunctioned, contact a staff member with an alternate account or get a friend to.\n\n***(Appealing does not guarantee that you will be unbanned.)***"},{"title":"No, you can earn guild points the more you talk. Use `t!leveledroles` to see how many points you need for each active role.","description":"**The roles are as following:**\n- `Trusted (1)` - Create server invites, can change nickname and add message reactions.\n- `Known (2)` - Can use external emojis.\n- `Recognized (3)` - DJ perms for FredBoat."},{"title":"Can we add our own bots?","description":"No, we only invite trusted Discord bots like **Dyno**, **FredBoat** and trusted community bots etc."},{"title":"How do I play music?","description":"First off, make sure you're in a voice channel.- \n- `;;play [song]` - Will either search YouTube for the song or will play the song from a YouTube or SoundCloud URL.\n- `;;skip [song]` - Skips the current song, or all songs from one user, or a range of songs. If you're not a DJ, you can only skip your own songs.\n- `;;voteskip` - If at least 50% of people in the VC use this, the current song will be skipped.\n- `;;join` - Bot joins the VC.\n- `;;stop` - Bot leaves the VC and skips all songs. Only usable by DJ.\n\nIf you have the DJ role, Recognized role, or any of the staff roles, you count as a DJ. "},{"title":"Can I get a special role?","description":"No, then everyone else would want a special role and we'd have to give one out to everyone. You and I both know we can't have 100+ roles for every single person on the server."},{"title":"Can I join the KSP Multiplayer Server?","description":"No - the loading time for everyone will go through the roof due to all the objects flying around and the server's internet speeds. But you can host your own server very easily or join a public server. http://lunamultiplayer.com/download"},{"title":"How can I join the SimplePlanes server?","description":"To join **@Frantic#0586** on the SimplePlanes multiplayer server, download the multiplayer mod for desktop at: **https://goo.gl/BP141s** (Desktop only!). Once you download the mod join this IP address: **157.7.205.136**"},{"title":"What is the IP for the Minecraft server?","description":"You can join with this domain: `minecraft.franticgaming.co.uk`"}]}
+{
+  "faq": [
+    {
+      "title": "When does **@Frantic#0586** stream?",
+      "description": "The **@Now Live#0483 ** bot will post a message about 15 minutes after **@Frantic#0586** starts streaming."
+    },
+    {
+      "title": "What does **@Frantic#0586** use to record?",
+      "description": "*\"I use OBS most of the time, if I want quality I would use Dxtory\"* —@Frantic#0586"
+    },
+    {
+      "title": "Why wasn't I able to talk?",
+      "description": "You triggered the automod four times and are muted for an hour."
+    },
+    {
+      "title": "Can I be Staff?",
+      "description": "You don't get staff for asking. I hand out staff roles to people that actually help. You saying ***`can i hav mod plz?`*** will not only make me not give you a staff role, but will make me think you are way too irresponsible to even handle the position."
+    },
+    {
+      "title": "Staff is being unfair! / I have trouble with some of the staff members! Who do I contact?",
+      "description": "You contact me, **@Aceheliflyer#0950**. Tell me what is wrong and provide evidence with details. I will sort things out and talk to that staff member."
+    },
+    {
+      "title": "My friend / I got banned. What do I do?",
+      "description": "Bans are not meant to be evaded. If you or they were banned, it was for a good reason. There is a way to appeal, and that is by talk to **@Aceheliflyer#0950** via DM. In your appeal, include the date you were banned on, why you were banned *(you should know this)* and why you would like to be unbanned. If you feel that you were unfairly banned for a misunderstanding or a bot accidentally malfunctioned, contact a staff member with an alternate account or get a friend to.\n\n***(Appealing does not guarantee that you will be unbanned.)***"
+    },
+    {
+      "title": "No, you can earn guild points the more you talk. Use `t!leveledroles` to see how many points you need for each active role.",
+      "description": "**The roles are as following:**\n- `Trusted (1)` - Create server invites, can change nickname and add message reactions.\n- `Known (2)` - Can use external emojis.\n- `Recognized (3)` - DJ perms for FredBoat."
+    },
+    {
+      "title": "Can we add our own bots?",
+      "description": "No, we only invite trusted Discord bots like **Dyno**, **FredBoat** and trusted community bots etc."
+    },
+    {
+      "title": "How do I play music?",
+      "description": "First off, make sure you're in a voice channel.- \n- `;;play [song]` - Will either search YouTube for the song or will play the song from a YouTube or SoundCloud URL.\n- `;;skip [song]` - Skips the current song, or all songs from one user, or a range of songs. If you're not a DJ, you can only skip your own songs.\n- `;;voteskip` - If at least 50% of people in the VC use this, the current song will be skipped.\n- `;;join` - Bot joins the VC.\n- `;;stop` - Bot leaves the VC and skips all songs. Only usable by DJ.\n\nIf you have the DJ role, Recognized role, or any of the staff roles, you count as a DJ. "
+    },
+    {
+      "title": "Can I get a special role?",
+      "description": "No, then everyone else would want a special role and we'd have to give one out to everyone. You and I both know we can't have 100+ roles for every single person on the server."
+    },
+    {
+      "title": "Can I join the KSP Multiplayer Server?",
+      "description": "No - the loading time for everyone will go through the roof due to all the objects flying around and the server's internet speeds. But you can host your own server very easily or join a public server. http://lunamultiplayer.com/download"
+    },
+    {
+      "title": "How can I join the SimplePlanes server?",
+      "description": "To join **@Frantic#0586** on the SimplePlanes multiplayer server, download the multiplayer mod for desktop at: **https://goo.gl/BP141s** (Desktop only!). Once you download the mod join this IP address: **157.7.205.136**"
+    },
+    {
+      "title": "What is the IP for the Minecraft server?",
+      "description": "You can join with this domain: `minecraft.franticgaming.co.uk`"
+    }
+  ]
+}
