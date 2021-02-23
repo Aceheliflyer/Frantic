@@ -1,0 +1,6 @@
+{
+  "hooks": {
+    "pre-commit": "pnpm run lint:js",
+    "pre-push": "pnpm run lint:js"
+  }
+}

@@ -10,7 +10,7 @@ const lBar = new cliProgress.Bar({
   format: '  {bar} {percentage}% | Elapsed: {duration_formatted} | ETA: {eta_formatted} | {value}/{total}'
 }, cliProgress.Presets.shades_classic); lBar.start(data.rules.length + 5)
 
-var text = ''
+let text = ''
 text += stripIndents`
   # :scales: Rules
 
@@ -25,7 +25,7 @@ data.rules.forEach(r => {
   }
 })
 
-text += `\n\n*You can use \`/ticket add [info about the problem]\` to report violations.*\n\n# \u1f516 Rule Violations\n`; lBar.increment()
+text += '\n\n*You can use `/ticket add [info about the problem]` to report violations.*\n\n# \u1f516 Rule Violations\n'; lBar.increment()
 lBar.setTotal(lBar.total + data.classes.length)
 data.classes.forEach(c => {
   text += `- **${c.name}:** ${c.content}\n`; lBar.increment()

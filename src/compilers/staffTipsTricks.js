@@ -10,7 +10,7 @@ const lBar = new cliProgress.Bar({
   format: '  {bar} {percentage}% | Elapsed: {duration_formatted} | ETA: {eta_formatted} | {value}/{total}'
 }, cliProgress.Presets.shades_classic); lBar.start(data.length + 3)
 
-var text = ''
+let text = ''
 text += stripIndents`
   # \u1f6e0 __**Staff Tips & Tricks**__
 
