@@ -1,31 +1,29 @@
 {
   "name": "frantic",
-  "description": "This is where all the information is held for the Frantic Discord server.",
   "version": "1.0.0",
-  "author": {
-    "name": "Aceheliflyer",
-    "email": "aceheliflyer@gmail.com",
-    "url": "https://ahf.pw"
-  },
-  "license": "UNLICENSED",
-  "main": "N/A",
+  "description": "All Information for the Frantic Discord Server.",
+  "main": "index.js",
   "scripts": {
     "lint:js": "standard --verbose | snazzy",
     "lint:js-fix": "standard --verbose --fix | snazzy"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aceheliflyer/Frantic.git"
+    "url": "git+https://github.com/FranticGaming/Frantic.git"
   },
   "keywords": [
-    "discord",
-    "frantic",
-    "matty"
+    "discord"
   ],
-  "bugs": {
-    "url": "https://github.com/Aceheliflyer/Frantic/issues"
+  "author": {
+    "name": "Jarrett Aiken",
+    "email": "jarrett.aiken@achl.fr",
+    "url": "https://achl.fr"
   },
-  "homepage": "https://github.com/Aceheliflyer/Frantic#readme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FranticGaming/Frantic/issues"
+  },
+  "homepage": "https://github.com/FranticGaming/Frantic#readme",
   "dependencies": {
     "chalk": "^4.1.0",
     "cli-progress": "^3.9.0",
@@ -34,7 +32,7 @@
     "moment-timezone": "^0.5.33"
   },
   "devDependencies": {
-    "husky": "^5.1.1",
+    "husky": "^5.1.2",
     "snazzy": "^9.0.0",
     "standard": "^16.0.3"
   }
