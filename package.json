@@ -4,8 +4,11 @@
   "description": "All Information for the Frantic Discord Server.",
   "main": "index.js",
   "scripts": {
-    "lint:js": "standard --verbose | snazzy",
-    "lint:js-fix": "standard --verbose --fix | snazzy"
+    "preinstall": "npx only-allow pnpm",
+    "postinstall": "husky install",
+    "start": "node src/compilers/faq.js && node src/compilers/rules.js && node src/compilers/staffList.js && node src/compilers/staffTipsTricks.js && node src/compilers/usefulInformation.js",
+    "lint": "standard --verbose | snazzy",
+    "lint:fix": "standard --verbose --fix | snazzy"
   },
   "repository": {
     "type": "git",
